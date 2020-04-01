@@ -1,0 +1,224 @@
+body {
+  background-image: url("file:///home/collins/Documents/www.CokoBox.com/img/bg.jpg"); 
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+	
+
+.Name{
+	color:rgb(102,178,255,0.5);
+}
+.regText{
+	color:black;
+}
+.email .UsrName{
+	color:rgb(102,178,255,0.5)
+}
+.Password{
+	color: rgb(102,178,255,0.5);
+}
+
+h1 {
+  color: rgb(153,153,255,0.7);
+  font-family: verdana;
+  font-size: 300%;
+}
+nav {
+	color:grey;
+	background: rgba(128,128, 128, 0.3)
+}
+@keyframes example {
+   0%  {background-color:rgb(100,100,128,0.3);}
+  25%  {background-color: rgb(100,0,128,0.3);}
+  50%  {background-color: rgb(150,70,255,0.3);}
+  100% {background-color:  rgb(100,150,255,0.3);}
+}
+
+.navbar{
+    background: rgba(100,100,128,0.3)
+   
+}
+.Form{
+	align-content: center;
+
+}
+
+	 	p  {
+  color: white;
+  font-family: courier;
+  font-size: 160%;
+}
+.regText{
+	color: rgb(102,178,255,0.9);
+}
+a:hover{
+	background-color: rgb(0,0,128,0.3);
+}
+.blind{
+	font-size: 80%;
+}
+ul{
+	
+}
+a{
+
+	text-decoration: none;
+}
+li{
+	float: left;
+	display:inline;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav {
+  background-color: rgb(0,128,128,0.5);
+  overflow: hidden;
+}
+.topnav a:hover {
+  background-color:rgb(90,178,255) ;
+  color: black;
+}
+.topnav a.active {
+  background-color:rgb();
+  color:rgb(102,178,255,0.5);
+}
+.topnav .icon {
+  display: none;
+}
+.submit{
+	color: teal;
+
+}
+.sidenavbar{
+
+}
+.c1{
+float:left;  
+background:rgb(0,0,128,0.2); 
+width:25%; 
+height:auto; 
+align-content: left;
+}
+.c2{
+ 
+background:rgb(0,102,204,0.8);
+width:50%;
+height:auto;
+align-content: center;
+}
+.c3{
+height:auto; 
+float:right;  
+background:rgb(0,0,128,0.2); 
+width:25%;
+align-content:right;
+}
+.buttons{
+  margin-right: 0px;
+}
+.container{
+  width:100%;
+}
+
+
+.loginForm{
+  background-color: rgb(100,100,128,0.4);
+  background-size: cover;
+  width:100%;
+  height: 100%;
+  animation-name: example;
+  animation-duration: 5s;
+}
+.bgl{
+  background-image: url(file:///home/collins/Documents/www.CokoBox.com/img/usplash.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  width:25%;
+  height: 75%;
+}
+h4,h2{
+  color: dodgerblue;
+}
+
+.container-fluid{
+  padding: 1em 1em;
+}
+.btn{
+  color: gray;
+}
+.jumbotron{
+  background-image: url(file:///home/collins/Documents/www.CokoBox.com/img/usplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+ 
+  height:auto;
+
+}
+.row{
+  display: inline;
+  border: 1px dashed;
+
+}
+.pricing{
+  font-family: verdana;
+  font-size: 120%;
+  font-style: bold;
+  color: teal;
+}
+.footer{
+  position: fixed;
+  width: 100%;
+}
+.detached{
+  background-color: rgb(0,0,128,0.2);
+}
+.bg2{
+  display: inline;
+}
+.MyName{
+  font-size: 150%;
+  color: black;
+}
+.soon{
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.soon .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.soon .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+.pb1{
+  
+}
+.pb2{
+  color: teal;
+}
+.pb3{
+  color: green;
+}
+.pb4{
+  color: red
+}

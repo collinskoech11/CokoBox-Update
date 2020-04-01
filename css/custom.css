@@ -1,0 +1,22 @@
+.bgl{
+	background-image: url(file:///home/collins/Downloads/snow.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	width:25%;
+	height: 75%;
+}
+h4,h2{
+	color: dodgerblue;
+}
+body{
+	background-image: url(file:///home/collins/Downloads/);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+ 	background-attachment: fixed;
+}
+.container-fluid{
+	padding: 1em 1em;
+}
