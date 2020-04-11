@@ -29,14 +29,20 @@ h1 {
   font-size: 300%;
 }
 nav {
-	color:grey;
-	background: rgba(128,128, 128, 0.3)
+	color:rgb(255,255,0);
+	background: rgba(0,255,0, 0.3)
 }
 @keyframes example {
    0%  {background-color:rgb(100,100,128,0.3);}
   25%  {background-color: rgb(100,0,128,0.3);}
   50%  {background-color: rgb(150,70,255,0.3);}
   100% {background-color:  rgb(100,150,255,0.3);}
+}
+@keyframes examplee {
+   0%  {color:rgb(255,153,55,0.9);}
+  25%  {color: rgb(255,255,51,0.8);}
+  50%  {color: rgb(255,150,40,0.7);}
+  100% {color:  rgb(200,150,0,0.6);}
 }
 
 .navbar{
@@ -58,6 +64,7 @@ nav {
 }
 a:hover{
 	background-color: rgb(0,0,128,0.3);
+  color: rgb(255,255,0);
 }
 .blind{
 	font-size: 80%;
@@ -88,11 +95,11 @@ li{
 }
 .topnav a:hover {
   background-color:rgb(90,178,255) ;
-  color: black;
+  color: rgb(255,255,0);
 }
 .topnav a.active {
   background-color:rgb();
-  color:rgb(102,178,255,0.5);
+  color:rgb(255,255,0,);
 }
 .topnav .icon {
   display: none;
@@ -131,7 +138,10 @@ align-content:right;
 .container{
   width:100%;
 }
-
+.location{
+  animation-name: examplee;
+  animation-duration: 10s;
+}
 
 .loginForm{
   background-color: rgb(100,100,128,0.4);
@@ -268,4 +278,45 @@ h3,h4,h5{
 }
 .color4{
 color: rgb(51,255,51);
+}
+.color5{
+  color: rgb(51,255,255);
+}
+.heading{
+  text-align: center;
+}
+.anim_a{
+ animation-name: examplea;
+ animation-duration: 5s;
+}
+.anim_b{
+  animation-name: example_b;
+  animation-duration: 6s;
+}
+.anim_c{
+  animation-name: example_c; 
+  animation-duration: 7s;
+
+}
+@keyframes examplea{
+  0% {color: rgb(255,0,0);}
+  50% {color: rgb(255,255,0);}
+  75% {color:rgb(0,255,0);}
+  100% {color:rgb(255,0,0);}
+  
+}
+@keyframes example_b{
+   0%  {color:rgb(255,0,0,);}
+  50%  {color: rgb(255,0,0,);}
+  75% {color:rgb(255,0,0);}
+  100% {color:  rgb(0,255,0,);}
+}
+@keyframes example_c{
+   0%  {color:rgb(255,255,0,);}
+  50%  {color: rgb(255,0,0,);}
+  75%  {color: rgb(255,0,0);}
+  100% {color:  rgb(0,255,0,);}
+}
+.fas{
+  size: 5px;
 }
